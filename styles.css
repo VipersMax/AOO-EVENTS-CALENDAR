@@ -1,0 +1,112 @@
+/* Основной фон и текст для всей страницы */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #181818; /* Тёмный фон для страницы */
+  color: #e1e1e1; /* Светлый цвет текста */
+  min-height: 100vh;
+}
+
+/* Контейнер для карточек */
+#card-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Стиль для каждой карточки */
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #252525; /* Тёмный фон для карточек */
+  border-radius: 12px;
+  border: 2px solid #444;
+  padding: 15px;
+  /*transition: background-color 0.3s ease, transform 0.3s ease;
+  background-color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Карточка с активным состоянием */
+.card.active {
+  background-color: #2b8a3e; /* Зелёный фон для активных карточек */
+  border-color: #4caf50; /* Зеленая обводка для активных карточек */
+  transform: scale(1.02); /* Увеличение при активации */
+}
+
+/* Изображение в карточке */
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Контент карточки */
+.card-content {
+  flex: 1;
+  text-align: center;
+}
+
+/* Заголовок карточки */
+.card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #c72fd7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Описание карточки */
+.card-description {
+  font-size: 16px;
+  color: #575050;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+/* Таймер карточки */
+.card-timer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+/* Информация о действующем ивенте */
+.event-info {
+  font-size: 16px;
+  color: #ff6666; /* Красный для текущего времени */
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+/* Информация о повторении ивента */
+.repeat-info {
+  font-size: 16px;
+  color: #4f2020;
+  font-weight: 400;
+}
+
+/* Карточки на экране */
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card img {
+    margin-bottom: 15px;
+  }
+}
