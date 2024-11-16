@@ -185,6 +185,11 @@ function startTimer(card, cardElement, eventInfoElement, repeatInfoElement) {
     // Обновляем информацию о времени до следующего повторного события
     repeatInfoElement.textContent = `До повтора ивента: ${repeatWeeks}н ${repeatDays}д ${repeatHours}ч ${repeatMinutes}м`;
 
+    // Проверяем, если до повтора события осталось менее 24 часов, выделяем карточку желтым
+    if (remaining < 24 * 60 * 60 * 1000) { // Меньше 24 часов
+      cardElement.style.backgroundColor = "#e8e87d";
+    }
+
     // Повторный запуск таймера
     requestAnimationFrame(updateTimer);
   }
