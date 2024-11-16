@@ -106,7 +106,7 @@ const cards = [
     image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/12.png",
     title: "Жаркое сражение",
     description: "Начало битвы между серверами (мирами).",
-    baseDate: new Date("2024-11-16T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
+    baseDate: new Date("2024-11-17T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
     duration: 30 * 24 * 60 * 60 * 1000, // Повторение раз в месяц
     activePeriod: 1 * 24 * 60 * 60 * 1000, // Длительность 1 день
   },
