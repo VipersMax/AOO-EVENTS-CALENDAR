@@ -4,7 +4,7 @@ const cardContainer = document.getElementById("card-container");
 const cards = [
   {
     id: 1,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Сокровище Медичи",
     description: "Описание карточки 1",
     baseDate: new Date("2024-11-11T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -13,7 +13,7 @@ const cards = [
   },
   {
     id: 2,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Сильнейший командир [Обычный]",
     description: "Описание карточки 2",
     baseDate: new Date("2024-11-11T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -22,7 +22,7 @@ const cards = [
   },
   {
     id: 3,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Сильнейший командир [КЕ]",
     description: "Описание карточки 3",
     baseDate: new Date("2024-11-04T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -31,7 +31,7 @@ const cards = [
   },
   {
     id: 4,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Вторжение Тирексов",
     description: "Описание карточки 4",
     baseDate: new Date("2024-11-06T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -40,7 +40,7 @@ const cards = [
   },
   {
     id: 5,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Матерь Смерти",
     description: "Описание карточки 5",
     baseDate: new Date("2024-11-15T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -49,7 +49,7 @@ const cards = [
   },
   {
     id: 6,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Кулак Апокалипсиса",
     description: "Описание карточки 6",
     baseDate: new Date("2024-11-12T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -58,7 +58,7 @@ const cards = [
   },
   {
     id: 7,
-    image: "/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
     title: "Богатство алианса",
     description: "Описание карточки 7",
     baseDate: new Date("2024-11-11T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -67,7 +67,7 @@ const cards = [
   },
   {
     id: 8,
-    image: "/img/8.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/8.png",
     title: "Обстрел Гигантской пушкой",
     description: "Нужно улучшить пушку с помощью Сплава (получаем в ивенте `Турнир героев`) и Чипов, после чего набрать очки убивая нападающих на пушку зомби.",
     baseDate: new Date("2024-11-14T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -76,7 +76,7 @@ const cards = [
   },
   {
     id: 9,
-    image: "/img/9.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/9.png",
     title: "Турнир героев",
     description: "Получаем Сплав для улучшения гигантской пушки. <br>Задания: Ускорить 100 и 300 мин; Обработать материалы 10 и 20 раз; Убить 5 зомби; Вклады в альянс 10 раз.",
     baseDate: new Date("2024-11-14T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -85,7 +85,7 @@ const cards = [
   },
   {
     id: 10,
-    image: "/img/10.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/10.png",
     title: "Распродажа ресурсов на выходных",
     description: "Скидки на расходники в магазине игры за золото.",
     baseDate: new Date("2024-11-15T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
