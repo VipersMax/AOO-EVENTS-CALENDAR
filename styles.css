@@ -99,7 +99,7 @@ body {
 }
 
 /* Карточки на экране */
-@media (max-width: 600px) {
+@media (max-width: 750px) {
   .card {
     flex-direction: column;
     align-items: center;
