@@ -53,9 +53,10 @@ body {
 
 @media (max-width: 750px) {
   .card img {
-    display: none;
+    display: none !important;
   }
 }
+
 
 /* Контент карточки */
 .card-content {
