@@ -153,22 +153,6 @@ function createCard(card) {
   startTimer(card, cardElement, eventInfo, repeatInfo);
 }
 
-function checkScreenWidth() {
-  const width = window.innerWidth;
-  const images = document.querySelectorAll("img");
-
-  images.forEach((image) => {
-    if (width < 750) {
-      image.style.display = "none";
-    } else {
-      image.style.display = "block";
-    }
-  });
-}
-
-window.addEventListener("resize", checkScreenWidth);
-checkScreenWidth(); // Для проверки при загрузке
-
 // Таймер с учетом активности карточки
 function startTimer(card, cardElement, eventInfoElement, repeatInfoElement) {
   function updateTimer() {
