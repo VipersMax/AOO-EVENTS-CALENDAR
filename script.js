@@ -4,30 +4,30 @@ const cardContainer = document.getElementById("card-container");
 const cards = [
   {
     id: 1,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/1.png",
     title: "Сокровище Медичи",
-    description: "Описание карточки 1",
+    description: "Нужно проходить этажи с зомби в ивенте, что бы заработать очки. <br>Расстановка войск: 1 ряд построения: 500 дуэлянтов (пилы) + по 250 воинов из каждого оставшегося типа войск; 2 ряд построения: по 500 воинов из каждого типа войск + максимум био-зомби; 3 ряд построения: максимум снайперов и минометов (уклон на тех, чей уровень выше) + 1000 щитов + 1000 эми лазеров",
     baseDate: new Date("2024-11-11T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
     duration: 7 * 24 * 60 * 60 * 1000, // Повторение раз в неделю
     activePeriod: 1 * 24 * 60 * 60 * 1000, // Длительность 1 день
   },
   {
     id: 2,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
-    title: "Сильнейший командир [Обычный]",
-    description: "Описание карточки 2",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/2.png",
+    title: "Сильнейший командир",
+    description: "Ивент состроит из 5 этапов. Первые 4 этапа раставляются рандомно (Строительство, Вербовка, Добыча RSS, Убийство зомби) и 5-й этап (длится 3 дня)  на убийство чужих войск.",
     baseDate: new Date("2024-11-11T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
     duration: 14 * 24 * 60 * 60 * 1000, // Повторение раз в две недели
-    activePeriod: 3 * 60 * 60 * 1000, // Длительность 3 часа
+    activePeriod: 8 * 24 * 60 * 60 * 1000, // Длительность 8 дней
   },
   {
     id: 3,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
-    title: "Сильнейший командир [КЕ]",
-    description: "Описание карточки 3",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/3.png",
+    title: "Сильнейший командир [Тест]",
+    description: "Тест.",
     baseDate: new Date("2024-11-04T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
     duration: 14 * 24 * 60 * 60 * 1000, // Повторение раз в две недели
-    activePeriod: 8 * 24 * 60 * 60 * 1000, // Длительность 3 дней
+    activePeriod: 8 * 24 * 60 * 60 * 1000, // Длительность 8 дней
   },
   {
     id: 4,
