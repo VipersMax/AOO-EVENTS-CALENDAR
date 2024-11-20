@@ -31,7 +31,7 @@ const cards = [
   },
   {
     id: 4,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/4.png",
     title: "Вторжение Тирексов",
     description: "Уничтожай динозавров и получай ускорители. <br>Расстановка войск: 1 ряд построения: 700 дуэлянтов (пилы) + по 1 воину из каждого оставшегося типа войск; 2 ряд построения: по 1 воину из каждого типа войск + максимум био-зомби; 3 ряд построения: максимум снайперов и минометов (уклон на тех, чей уровень выше) + по 1 воину из каждого типа войск.",
     baseDate: new Date("2024-11-06T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -121,7 +121,7 @@ const cards = [
   },
   {
     id: 14,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/14.png",
     title: "Дикие гонки (В команде)",
     description: "Уклоняйся на машине от препятствий, набирай очки и получай за них награды.",
     baseDate: new Date("2024-11-20T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -130,7 +130,7 @@ const cards = [
   },
   {
     id: 15,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/15.png",
     title: "Тренировочный заезд",
     description: "Дополнение к ивенту `Дикие гонки (В команде)`. Нужно дляя получения деталей к машине. <br>Задания: 1 день: Потратить 5/15/20 жидкости модификаций; Использовать мяса мутантов на 5к/10к/25к опыта; Ипользовать 10/20/35 банок с энергией титана. <br>2 день ждем..",
     baseDate: new Date("2024-11-20T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
