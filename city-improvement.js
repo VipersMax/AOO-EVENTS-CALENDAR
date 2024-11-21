@@ -20,7 +20,7 @@ const cardsData = [
   
   // Функция для отображения карточек
   function displayCards() {
-    const container = document.getElementById("card-container");
+    const container = document.getElementById("city-improvement");
   
     // Сортировка карточек по ID (убывание)
     const sortedCards = cardsData.sort((a, b) => b.id - a.id);
