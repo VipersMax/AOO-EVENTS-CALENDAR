@@ -1,41 +1,44 @@
-const cardContainer = document.getElementById("card-container");
-
-// Пример данных для карточек
-const cards = [
-  {
-    id: 1,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
-    title: "Сокровище Медичи",
-    description: "Нужно проходить этажи с зомби в ивенте, что бы заработать очки. <br>Расстановка войск: 1 ряд построения: 500 дуэлянтов (пилы) + по 250 воинов из каждого оставшегося типа войск; 2 ряд построения: по 500 воинов из каждого типа войск + максимум био-зомби; 3 ряд построения: максимум снайперов и минометов (уклон на тех, чей уровень выше) + 1000 щитов + 1000 эми лазеров",
-    baseDate: new Date("2024-11-11T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
-  },
-];
-
-// Функция для создания карточки
-function createCard(card) {
-  const cardElement = document.createElement("div");
-  cardElement.className = "card";
-
-  const eventInfo = document.createElement("div");
-  eventInfo.className = "event-info";
-  eventInfo.id = `event-info-${card.id}`;
-
-  const repeatInfo = document.createElement("div");
-  repeatInfo.className = "repeat-info";
-  repeatInfo.id = `repeat-info-${card.id}`;
-
-  cardElement.innerHTML = `
-    <img src="${card.image}" alt="${card.title}">
-    <div class="card-content">
-      <div class="card-title">${card.title}</div>
-      <div class="card-description">${card.description}</div>
-    </div>
-  `;
-
-  cardContainer.appendChild(cardElement);
-
-  startTimer(card, cardElement, eventInfo, repeatInfo);
-}
-  cards.forEach(createCard);
-
-renderCards();
+// Массив данных для карточек
+const cardsData = [
+    {
+      id: 1,
+      title: "Мерия [ 1 -> 2 ]",
+      description: "Описание первой карточки.",
+      image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    },
+    {
+      id: 2,
+      title: "Мерия [ 2 -> 3 ]",
+      description: "Описание второй карточки.",
+      image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    },
+  ];
+  
+  // Функция для отображения карточек
+  function displayCards() {
+    const container = document.getElementById("card-container");
+  
+    // Сортировка карточек по ID (убывание)
+    const sortedCards = cardsData.sort((a, b) => b.id - a.id);
+  
+    // Генерация HTML для каждой карточки
+    sortedCards.forEach((card) => {
+      const cardElement = document.createElement("div");
+      cardElement.classList.add("card");
+  
+      cardElement.innerHTML = `
+        <img src="${card.image}" alt="Изображение ${card.title}">
+        <div class="card-content">
+          <h3 class="card-title">${card.title}</h3>
+          <p class="card-description">${card.description}</p>
+        </div>
+      `;
+  
+      // Добавляем карточку в контейнер
+      container.appendChild(cardElement);
+    });
+  }
+  
+  // Запуск функции после загрузки страницы
+  document.addEventListener("DOMContentLoaded", displayCards);
+  

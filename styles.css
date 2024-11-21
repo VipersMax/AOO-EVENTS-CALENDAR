@@ -81,7 +81,7 @@ nav {
 }
 
 /* Контейнер для карточек */
-#card-container {
+#card-container, #city-improvement {
   width: 90%;
   max-width: 900px;
   margin: 40px auto;
