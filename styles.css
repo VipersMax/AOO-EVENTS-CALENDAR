@@ -11,6 +11,63 @@ body {
   min-height: 100vh;
 }
 
+/* Стили для хедера */
+header {
+  width: 100%;
+  background-color: #252525; /* Фон хедера */
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Тень */
+  margin-bottom: 20px;
+}
+
+/* Стили для навигации */
+nav {
+  display: flex;
+  gap: 20px; /* Расстояние между кнопками */
+}
+
+/* Стили для кнопок в хедере */
+.header-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #2b2b2b; /* Тёмный фон кнопок */
+  color: #e1e1e1; /* Светлый текст */
+  border: 2px solid #444; /* Обводка */
+  border-radius: 8px; /* Закруглённые углы */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Эффекты при наведении на кнопки */
+.header-btn:hover {
+  background-color: #3e3e3e; /* Более светлый фон */
+  transform: scale(1.05); /* Лёгкое увеличение */
+}
+
+/* Эффекты при клике на кнопки */
+.header-btn:active {
+  background-color: #4caf50; /* Зелёный фон при нажатии */
+  border-color: #2b8a3e; /* Зелёная обводка */
+  transform: scale(0.95); /* Лёгкое уменьшение */
+}
+
+/* Адаптивность для кнопок на маленьких экранах */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 10px; /* Уменьшенное расстояние между кнопками */
+  }
+
+  .header-btn {
+    width: 80%; /* Кнопки растягиваются на 80% ширины */
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
 /* Контейнер для карточек */
 #card-container {
   width: 90%;
