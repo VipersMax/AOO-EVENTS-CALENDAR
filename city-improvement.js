@@ -135,19 +135,19 @@
       {
         id: 23,
         title: "Мерия [ 23 -> 24 ]",
-        description: "Условия улучшения: Стена [23 lvl] Посольство [23 lvl]. <br>Ресурсы на улучшения мэрии: <br>Ресурсы на улучшения стены:",
+        description: "Условия улучшения: Стена [23 lvl] + Посольство [23 lvl]. <br>Ресурсы на улучшения мэрии: <br>Ресурсы на улучшения стены:",
         image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
       },
       {
         id: 24,
         title: "Мерия [ 24 -> 25 ]",
-        description: "Условия улучшения: Стена [24 lvl] Склад [24 lvl]. <br>Ресурсы на улучшения мэрии: <br>Ресурсы на улучшения стены:",
+        description: "Условия улучшения: Стена [24 lvl] + Склад [24 lvl]. <br>Ресурсы на улучшения мэрии: <br>Ресурсы на улучшения стены:",
         image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
       },
       {
         id: 25,
         title: "Мерия [ 25 -> 26 ]",
-        description: "Условия улучшения: Стена [25 lvl] Разведцентр [25 lvl]. <br>Ресурсы на улучшения мэрии: <br>Ресурсы на улучшения стены:",
+        description: "Условия улучшения: Стена [25 lvl] + Разведцентр [25 lvl]. <br>Ресурсы на улучшения мэрии: <br>Ресурсы на улучшения стены:",
         image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
       },
       {
