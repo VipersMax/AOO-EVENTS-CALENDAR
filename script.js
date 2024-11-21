@@ -40,7 +40,7 @@ const cards = [
   },
   {
     id: 5,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/6.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/5.png",
     title: "Матерь Смерти",
     description: "Убивай `Матерь Смерти`, что бы получить ДНК Императрицы, Жидкость модификации и Опыт персонажа в награду. <br>Так же за рейтинг выдается: Банка с энергией, Ускорение вербовки, Ускорение лечения и Опыт персонажа",
     baseDate: new Date("2024-11-15T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
@@ -49,7 +49,7 @@ const cards = [
   },
   {
     id: 6,
-    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+    image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/6.png",
     title: "Кулак Апокалипсиса",
     description: "Убивай `Кулак Апокалипсиса`, что бы получить ДНК Источника духа, Жидкость модификации и Энергоруду в награду. <br>Так же за рейтинг выдается: Банка с энергией, Энергоруда, Ускорение вербовки и Опыт персонажа",
     baseDate: new Date("2024-11-12T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
