@@ -1,21 +1,17 @@
-document.addEventListener('DOMContentLoaded', function() {
-    displayCards();
-  });  
-
 // Массив данных для карточек
-const cardsData = [
-    {
-      id: 1,
-      title: "Мерия [ 1 -> 2 ]",
-      description: "Описание первой карточки.",
-      image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
-    },
-    {
-      id: 2,
-      title: "Мерия [ 2 -> 3 ]",
-      description: "Описание второй карточки.",
-      image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
-    },
+  const cardsData = [
+      {
+        id: 1,
+        title: "Мерия [ 1 -> 2 ]",
+        description: "Описание первой карточки.",
+        image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+      },
+      {
+        id: 2,
+        title: "Мерия [ 2 -> 3 ]",
+        description: "Описание второй карточки.",
+        image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/none.png",
+      },
   ];
   
   // Функция для отображения карточек
@@ -29,6 +25,9 @@ const cardsData = [
     sortedCards.forEach((card) => {
       const cardElement = document.createElement("div");
       cardElement.classList.add("card");
+  
+      // Устанавливаем цвет фона для карточки через JavaScript
+      cardElement.style.backgroundColor = '#e1e1e1'; // Цвет фона
   
       cardElement.innerHTML = `
         <img src="${card.image}" alt="Изображение ${card.title}">
@@ -44,5 +43,4 @@ const cardsData = [
   }
   
   // Запуск функции после загрузки страницы
-  document.addEventListener("DOMContentLoaded", displayCards);
-  
+  document.addEventListener("DOMContentLoaded", displayCards);  
