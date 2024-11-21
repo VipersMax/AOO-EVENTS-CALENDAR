@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+    displayCards();
+  });  
+
 // Массив данных для карточек
 const cardsData = [
     {
