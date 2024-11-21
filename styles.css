@@ -41,6 +41,18 @@ nav {
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
+.header-btn-active {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: #409c43; /* Тёмный фон кнопок */
+  color: #e1e1e1; /* Светлый текст */
+  border: 2px solid #444; /* Обводка */
+  border-radius: 8px; /* Закруглённые углы */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
 /* Эффекты при наведении на кнопки */
 .header-btn:hover {
   background-color: #3e3e3e; /* Более светлый фон */
