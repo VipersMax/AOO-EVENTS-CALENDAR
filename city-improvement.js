@@ -37,6 +37,5 @@ function createCard(card) {
   startTimer(card, cardElement, eventInfo, repeatInfo);
 }
   cards.forEach(createCard);
-}
 
 renderCards();
