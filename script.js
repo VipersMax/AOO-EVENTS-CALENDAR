@@ -88,9 +88,9 @@ const cards = [
     image: "https://vipersmax.github.io/AOO-EVENTS-CALENDAR/img/10.png",
     title: "Распродажа ресурсов на выходных",
     description: "Скидки на расходники в магазине игры за золото.",
-    baseDate: new Date("2024-11-15T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
+    baseDate: new Date("2024-11-16T00:00:00+00:00").getTime(), // Индивидуальная базовая дата
     duration: 7 * 24 * 60 * 60 * 1000, // Повторение раз в неделю
-    activePeriod: 4 * 24 * 60 * 60 * 1000, // Длительность 4 дня
+    activePeriod: 3 * 24 * 60 * 60 * 1000, // Длительность 3 дня
   },
   {
     id: 11,
